@@ -89,7 +89,6 @@ export const ArticleParamsForm = ({
 				ref={arrowRef}
 				isOpen={isOpen}
 				onClick={() => {
-					console.log('Клик по стрелке, текущий isOpen:', isOpen);
 					setIsOpen(!isOpen);
 				}}
 			/>
